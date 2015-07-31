@@ -70,6 +70,7 @@
     <Folder Include="js" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="bundleconfig.json" />
     <Content Include="compilerconfig.json" />
     <Content Include="css\bootstrap.css" />
