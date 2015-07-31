@@ -1,0 +1,85 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-cdon {
+  background-image: url(clientssprite.png);
+  background-position: -235px -65px;
+  width: 206px;
+  height: 30px;
+}
+.icon-heppo {
+  background-image: url(clientssprite.png);
+  background-position: -236px -95px;
+  width: 141px;
+  height: 70px;
+}
+.icon-lekmer {
+  background-image: url(clientssprite.png);
+  background-position: 0px 0px;
+  width: 235px;
+  height: 95px;
+}
+.icon-medbiblio {
+  background-image: url(clientssprite.png);
+  background-position: 0px -165px;
+  width: 110px;
+  height: 110px;
+}
+.icon-newsperience {
+  background-image: url(clientssprite.png);
+  background-position: -110px -165px;
+  width: 301px;
+  height: 34px;
+}
+.icon-stayhard {
+  background-image: url(clientssprite.png);
+  background-position: -235px 0px;
+  width: 296px;
+  height: 65px;
+}
+.icon-trademax {
+  background-image: url(clientssprite.png);
+  background-position: 0px -95px;
+  width: 236px;
+  height: 70px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-cdon {
+    background-image: url(clientssprite-2x.png);
+    background-size: 531px 275px;
+  }
+  .icon-heppo {
+    background-image: url(clientssprite-2x.png);
+    background-size: 531px 275px;
+  }
+  .icon-lekmer {
+    background-image: url(clientssprite-2x.png);
+    background-size: 531px 275px;
+  }
+  .icon-medbiblio {
+    background-image: url(clientssprite-2x.png);
+    background-size: 531px 275px;
+  }
+  .icon-newsperience {
+    background-image: url(clientssprite-2x.png);
+    background-size: 531px 275px;
+  }
+  .icon-stayhard {
+    background-image: url(clientssprite-2x.png);
+    background-size: 531px 275px;
+  }
+  .icon-trademax {
+    background-image: url(clientssprite-2x.png);
+    background-size: 531px 275px;
+  }
+}

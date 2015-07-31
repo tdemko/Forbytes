@@ -1,0 +1,215 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` servicessprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` servicessprite -->
+<img class="icon-home" />
+```
+*/
+.icon-analyze {
+  background-image: url(servicessprite.png);
+  background-position: -252px -196px;
+  width: 31px;
+  height: 34px;
+}
+.icon-arrowdown {
+  background-image: url(servicessprite.png);
+  background-position: -242px -179px;
+  width: 19px;
+  height: 12px;
+}
+.icon-clients {
+  background-image: url(servicessprite.png);
+  background-position: -118px -196px;
+  width: 34px;
+  height: 34px;
+}
+.icon-companies {
+  background-image: url(servicessprite.png);
+  background-position: 0px -196px;
+  width: 42px;
+  height: 34px;
+}
+.icon-develop {
+  background-image: url(servicessprite.png);
+  background-position: -42px -196px;
+  width: 42px;
+  height: 34px;
+}
+.icon-dotnet {
+  background-image: url(servicessprite.png);
+  background-position: -172px -103px;
+  width: 186px;
+  height: 76px;
+}
+.icon-dotnetsmall {
+  background-image: url(servicessprite.png);
+  background-position: -207px -179px;
+  width: 35px;
+  height: 14px;
+}
+.icon-dotnetsmallinactive {
+  background-image: url(servicessprite.png);
+  background-position: -172px -179px;
+  width: 35px;
+  height: 14px;
+}
+.icon-frontend {
+  background-image: url(servicessprite.png);
+  background-position: 0px 0px;
+  width: 172px;
+  height: 196px;
+}
+.icon-frontendsmall {
+  background-image: url(servicessprite.png);
+  background-position: -52px -230px;
+  width: 27px;
+  height: 31px;
+}
+.icon-frontendsmallinactive {
+  background-image: url(servicessprite.png);
+  background-position: -79px -230px;
+  width: 27px;
+  height: 31px;
+}
+.icon-icon-suport {
+  background-image: url(servicessprite.png);
+  background-position: 0px -230px;
+  width: 26px;
+  height: 34px;
+}
+.icon-improve {
+  background-image: url(servicessprite.png);
+  background-position: -186px -196px;
+  width: 34px;
+  height: 34px;
+}
+.icon-optimize {
+  background-image: url(servicessprite.png);
+  background-position: -220px -196px;
+  width: 32px;
+  height: 34px;
+}
+.icon-php {
+  background-image: url(servicessprite.png);
+  background-position: -172px 0px;
+  width: 196px;
+  height: 103px;
+}
+.icon-phpsmall {
+  background-image: url(servicessprite.png);
+  background-position: -283px -196px;
+  width: 42px;
+  height: 22px;
+}
+.icon-phpsmallinactive {
+  background-image: url(servicessprite.png);
+  background-position: -325px -196px;
+  width: 42px;
+  height: 22px;
+}
+.icon-socialfacebook {
+  background-image: url(servicessprite.png);
+  background-position: -152px -196px;
+  width: 34px;
+  height: 34px;
+}
+.icon-sociallinkedin {
+  background-image: url(servicessprite.png);
+  background-position: -84px -196px;
+  width: 34px;
+  height: 34px;
+}
+.icon-support {
+  background-image: url(servicessprite.png);
+  background-position: -26px -230px;
+  width: 26px;
+  height: 34px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-analyze {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-arrowdown {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-clients {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-companies {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-develop {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-dotnet {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-dotnetsmall {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-dotnetsmallinactive {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-frontend {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-frontendsmall {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-frontendsmallinactive {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-icon-suport {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-improve {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-optimize {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-php {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-phpsmall {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-phpsmallinactive {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-socialfacebook {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-sociallinkedin {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+  .icon-support {
+    background-image: url(servicessprite-2x.png);
+    background-size: 368px 264px;
+  }
+}

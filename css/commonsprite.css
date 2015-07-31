@@ -1,0 +1,45 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-quotes {
+  background-image: url(commonsprite.png);
+  background-position: 0px -34px;
+  width: 24px;
+  height: 20px;
+}
+.icon-socialfacebook {
+  background-image: url(commonsprite.png);
+  background-position: 0px 0px;
+  width: 34px;
+  height: 34px;
+}
+.icon-sociallinkedin {
+  background-image: url(commonsprite.png);
+  background-position: -34px 0px;
+  width: 34px;
+  height: 34px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-quotes {
+    background-image: url(commonsprite-2x.png);
+    background-size: 68px 54px;
+  }
+  .icon-socialfacebook {
+    background-image: url(commonsprite-2x.png);
+    background-size: 68px 54px;
+  }
+  .icon-sociallinkedin {
+    background-image: url(commonsprite-2x.png);
+    background-size: 68px 54px;
+  }
+}

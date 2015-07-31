@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Web</Name>
+    <ProjectGuid>{97b6230d-56b3-4472-8a16-938ce7ef08be}</ProjectGuid>
+    <RootNamespace>Web</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="css\animate.css" />
+    <Compile Include="css\jquery.fullPage.css" />
+    <Compile Include="css\main.less" />
+    <Compile Include="css\normalize.css" />
+    <Compile Include="css\services.css" />
+    <Compile Include="css\services.less" />
+    <Compile Include="css\servicessprite-2x.png" />
+    <Compile Include="css\servicessprite.css" />
+    <Compile Include="css\servicessprite.png" />
+    <Compile Include="custom-head.php" />
+    <Compile Include="fonts\questrial\Questrial-Regular.ttf" />
+    <Compile Include="fonts\glyphicons-halflings-regular.eot" />
+    <Compile Include="fonts\glyphicons-halflings-regular.svg" />
+    <Compile Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Compile Include="fonts\glyphicons-halflings-regular.woff" />
+    <Compile Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Compile Include="img\app\common\logo.svg" />
+    <Compile Include="img\app\common\logo_monochrome.svg" />
+    <Compile Include="img\app\sprites\sprite-2x.png" />
+    <Compile Include="img\app\sprites\sprite.png" />
+    <Compile Include="js\libs\jquery-1.11.2.min.js" />
+    <Compile Include="js\libs\jquery.fullPage.min.js" />
+    <Compile Include="js\libs\jquery.scrollTo.min.js" />
+    <Compile Include="js\libs\jquery.slimscroll.min.js" />
+    <Compile Include="js\libs\modernizr-2.8.3.min.js" />
+    <Compile Include="js\app\services.js" />
+    <Compile Include="footer.php" />
+    <Compile Include="functions.php" />
+    <Compile Include="header.php" />
+    <Compile Include="index.php" />
+    <Compile Include="page-clients.php" />
+    <Compile Include="page-company.php" />
+    <Compile Include="sidebar.php" />
+    <Compile Include="style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css" />
+    <Folder Include="fonts\questrial\" />
+    <Folder Include="fonts\" />
+    <Folder Include="img\app\clients\forsprite\" />
+    <Folder Include="img\app\common" />
+    <Folder Include="img\app\common\forsprite\" />
+    <Folder Include="img\app\company\" />
+    <Folder Include="img\app\company\forsprite\" />
+    <Folder Include="img\app\clients\" />
+    <Folder Include="img\app\services" />
+    <Folder Include="img\app\services\forsprite\" />
+    <Folder Include="img\app\sprites" />
+    <Folder Include="img\app" />
+    <Folder Include="img" />
+    <Folder Include="js\app\" />
+    <Folder Include="js\libs\" />
+    <Folder Include="js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bundleconfig.json" />
+    <Content Include="compilerconfig.json" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\clients.css" />
+    <Content Include="css\clients.less" />
+    <Content Include="css\clientsbundle.css" />
+    <Content Include="css\clientsbundle.min.css">
+      <SubType>Content</SubType>
+      <DependentUpon>css\clientsbundle.css</DependentUpon>
+    </Content>
+    <Content Include="css\clientssprite-2x.png" />
+    <Content Include="css\clientssprite.css" />
+    <Content Include="css\clientssprite.png" />
+    <Content Include="css\clientsssprite-2x.png" />
+    <Content Include="css\commonsprite-2x.png" />
+    <Content Include="css\commonsprite.css" />
+    <Content Include="css\commonsprite.png" />
+    <Content Include="css\company.css" />
+    <Content Include="css\company.less" />
+    <Content Include="css\companybundle.css" />
+    <Content Include="css\companybundle.min.css">
+      <SubType>Content</SubType>
+      <DependentUpon>css\companybundle.css</DependentUpon>
+    </Content>
+    <Content Include="css\companysprite-2x.png" />
+    <Content Include="css\companysprite.css" />
+    <Content Include="css\companysprite.png" />
+    <Content Include="css\main.css" />
+    <Content Include="css\mainbundle.css" />
+    <Content Include="css\mainbundle.min.css">
+      <SubType>Content</SubType>
+      <DependentUpon>css\mainbundle.css</DependentUpon>
+    </Content>
+    <Content Include="css\servicesbundle.css" />
+    <Content Include="css\servicesbundle.min.css">
+      <SubType>Content</SubType>
+      <DependentUpon>css\servicesbundle.css</DependentUpon>
+    </Content>
+    <Content Include="favicon.ico" />
+    <Content Include="gruntfile.js" />
+    <Content Include="img\app\clients\forsprite\cdon-2x.png" />
+    <Content Include="img\app\clients\forsprite\cdon.png" />
+    <Content Include="img\app\clients\forsprite\heppo-2x.png" />
+    <Content Include="img\app\clients\forsprite\heppo.png" />
+    <Content Include="img\app\clients\forsprite\lekmer-2x.png" />
+    <Content Include="img\app\clients\forsprite\lekmer.png" />
+    <Content Include="img\app\clients\forsprite\medbiblio-2x.png" />
+    <Content Include="img\app\clients\forsprite\medbiblio.png" />
+    <Content Include="img\app\clients\forsprite\newsperience-2x.png" />
+    <Content Include="img\app\clients\forsprite\newsperience.png" />
+    <Content Include="img\app\clients\forsprite\stayhard-2x.png" />
+    <Content Include="img\app\clients\forsprite\stayhard.png" />
+    <Content Include="img\app\clients\forsprite\trademax-2x.png" />
+    <Content Include="img\app\clients\forsprite\trademax.png" />
+    <Content Include="img\app\common\forsprite\quotes-2x.png" />
+    <Content Include="img\app\common\forsprite\quotes.png" />
+    <Content Include="img\app\company\forsprite\learning-2x.png" />
+    <Content Include="img\app\company\forsprite\learning.png" />
+    <Content Include="img\app\company\forsprite\partnership-2x.png" />
+    <Content Include="img\app\company\forsprite\partnership.png" />
+    <Content Include="img\app\company\forsprite\reliability-2x.png" />
+    <Content Include="img\app\company\forsprite\reliability.png" />
+    <Content Include="img\app\company\team.jpg" />
+    <Content Include="img\app\services\forsprite\analyze-2x.png" />
+    <Content Include="img\app\services\forsprite\analyze.png" />
+    <Content Include="img\app\services\forsprite\arrowdown-2x.png" />
+    <Content Include="img\app\services\forsprite\arrowdown.png" />
+    <Content Include="img\app\services\forsprite\clients-2x.png" />
+    <Content Include="img\app\services\forsprite\clients.png" />
+    <Content Include="img\app\services\forsprite\companies-2x.png" />
+    <Content Include="img\app\services\forsprite\companies.png" />
+    <Content Include="img\app\services\forsprite\develop-2x.png" />
+    <Content Include="img\app\services\forsprite\develop.png" />
+    <Content Include="img\app\services\forsprite\dotnet-2x.png" />
+    <Content Include="img\app\services\forsprite\dotnet.png" />
+    <Content Include="img\app\services\forsprite\dotnetsmall-2x.png" />
+    <Content Include="img\app\services\forsprite\dotnetsmall.png" />
+    <Content Include="img\app\services\forsprite\dotnetsmallinactive-2x.png" />
+    <Content Include="img\app\services\forsprite\dotnetsmallinactive.png" />
+    <Content Include="img\app\services\forsprite\frontend-2x.png" />
+    <Content Include="img\app\services\forsprite\frontend.png" />
+    <Content Include="img\app\services\forsprite\frontendsmall-2x.png" />
+    <Content Include="img\app\services\forsprite\frontendsmall.png" />
+    <Content Include="img\app\services\forsprite\frontendsmallinactive-2x.png" />
+    <Content Include="img\app\services\forsprite\frontendsmallinactive.png" />
+    <Content Include="img\app\services\forsprite\icon-suport-2x.png" />
+    <Content Include="img\app\services\forsprite\icon-suport.png" />
+    <Content Include="img\app\services\forsprite\improve-2x.png" />
+    <Content Include="img\app\services\forsprite\improve.png" />
+    <Content Include="img\app\services\forsprite\optimize-2x.png" />
+    <Content Include="img\app\services\forsprite\optimize.png" />
+    <Content Include="img\app\services\forsprite\php-2x.png" />
+    <Content Include="img\app\services\forsprite\php.png" />
+    <Content Include="img\app\services\forsprite\phpsmall-2x.png" />
+    <Content Include="img\app\services\forsprite\phpsmall.png" />
+    <Content Include="img\app\services\forsprite\phpsmallinactive-2x.png" />
+    <Content Include="img\app\services\forsprite\phpsmallinactive.png" />
+    <Content Include="img\app\common\forsprite\socialfacebook-2x.png" />
+    <Content Include="img\app\common\forsprite\socialfacebook.png" />
+    <Content Include="img\app\common\forsprite\sociallinkedin-2x.png" />
+    <Content Include="img\app\common\forsprite\sociallinkedin.png" />
+    <Content Include="img\app\services\forsprite\support-2x.png" />
+    <Content Include="img\app\services\forsprite\support.png" />
+    <Content Include="img\app\services\homefhd.jpg" />
+    <Content Include="js\app\clients.js" />
+    <Content Include="js\app\clients.min.js">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\clients.js</DependentUpon>
+    </Content>
+    <Content Include="js\app\clients.min.js.map">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\clients.min.js</DependentUpon>
+    </Content>
+    <Content Include="js\app\company.js" />
+    <Content Include="js\app\company.min.js">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\company.js</DependentUpon>
+    </Content>
+    <Content Include="js\app\company.min.js.map">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\company.min.js</DependentUpon>
+    </Content>
+    <Content Include="js\app\emailform.js" />
+    <Content Include="js\app\emailform.min.js">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\emailform.js</DependentUpon>
+    </Content>
+    <Content Include="js\app\emailform.min.js.map">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\emailform.min.js</DependentUpon>
+    </Content>
+    <Content Include="js\app\quotescarousel.js" />
+    <Content Include="js\app\quotescarousel.min.js">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\quotescarousel.js</DependentUpon>
+    </Content>
+    <Content Include="js\app\quotescarousel.min.js.map">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\quotescarousel.min.js</DependentUpon>
+    </Content>
+    <Content Include="js\app\services.min.js">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\services.js</DependentUpon>
+    </Content>
+    <Content Include="js\app\services.min.js.map">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\services.min.js</DependentUpon>
+    </Content>
+    <Content Include="js\app\technologiesweuse.js" />
+    <Content Include="js\app\technologiesweuse.min.js">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\technologiesweuse.js</DependentUpon>
+    </Content>
+    <Content Include="js\app\technologiesweuse.min.js.map">
+      <SubType>Content</SubType>
+      <DependentUpon>js\app\technologiesweuse.min.js</DependentUpon>
+    </Content>
+    <Content Include="js\libs\async.js" />
+    <Content Include="js\libs\async.min.js">
+      <SubType>Content</SubType>
+      <DependentUpon>js\libs\async.js</DependentUpon>
+    </Content>
+    <Content Include="js\libs\async.min.js.map">
+      <SubType>Content</SubType>
+      <DependentUpon>js\libs\async.min.js</DependentUpon>
+    </Content>
+    <Content Include="js\libs\jquery-private.js" />
+    <Content Include="js\libs\jquery-private.min.js">
+      <SubType>Content</SubType>
+      <DependentUpon>js\libs\jquery-private.js</DependentUpon>
+    </Content>
+    <Content Include="js\libs\jquery-private.min.js.map">
+      <SubType>Content</SubType>
+      <DependentUpon>js\libs\jquery-private.min.js</DependentUpon>
+    </Content>
+    <Content Include="js\requireConfig.js" />
+    <Content Include="js\libs\require.js" />
+    <Content Include="package.json" />
+  </ItemGroup>
+</Project>
